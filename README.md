@@ -46,8 +46,8 @@ This project can be deployed for free using platforms such as **Vercel**, **Netl
 
 **Frontend:**
 
-* **HTML5** – For the website structure and page content.
-* **CSS3** – For responsive layouts, product cards, navigation, buttons, and visual design.
+* **HTML** – For the website structure and page content.
+* **CSS** – For responsive layouts, product cards, navigation, buttons, and visual design.
 * **JavaScript** – For menu filtering, live order summary, form handling, localStorage order review, mobile navigation, and login preview behavior.
 
 **Browser Storage:**
