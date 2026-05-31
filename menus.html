@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse the updated Delish Alley menu with cookies, pastries, snack packs, and gift bundles.">
+  <title>Menu | Delish Alley</title>
+  <link rel="stylesheet" href="CSS/delishAlley.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="logo" href="Index.html" aria-label="Delish Alley Home">
+      <span class="logo-mark">🍪</span><span>Delish Alley</span>
+    </a>
+    <div class="nav-links" data-nav-links>
+      <a href="Index.html" class="">Home</a>
+      <a href="menus.html" class="active">Menu</a>
+      <a href="Product.html" class="">Products</a>
+      <a href="form.html" class="">Order</a>
+      <a href="Loginform.html" class="">Login</a>
+    </div>
+    <div class="nav-actions">
+      <a class="btn btn-secondary" href="form.html">Order Now</a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>☰</button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="menu-hero">
+    <span class="eyebrow">Delish Alley menu</span>
+    <h1>Original treats, now easier to browse.</h1>
+    <p>Explore our freshly baked cookie selections and easily find the treats that match your cravings.</p>
+  </section>
+  <div class="filter-bar" aria-label="Product filters">
+    <button class="filter-btn active" data-filter="all" type="button">All</button>
+    <button class="filter-btn" data-filter="cookies" type="button">Cookies</button>
+    <button class="filter-btn" data-filter="pastries" type="button">Pastries</button>
+    <button class="filter-btn" data-filter="bundles" type="button">Bundles</button>
+  </div>
+  <section>
+    <div class="grid product-grid">
+      
+        <article class="product-card" data-category="cookies">
+          <span class="badge">Best Seller</span>
+          <div class="product-img-wrap"><img src="assets/Classicchips.jpg" alt="Classic Chocolate Chip Cookies"></div>
+          <div class="product-content">
+            <h3>Classic Chocolate Chip Cookies</h3>
+            <p>Soft, chewy cookies loaded with chocolate chips for a timeless Delish Alley favorite.</p>
+            <div class="product-meta"><span class="price">₱120</span><a class="tag" href="form.html">Order</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="cookies">
+          <span class="badge">Fan Favorite</span>
+          <div class="product-img-wrap"><img src="assets/john oreo smores.jpg" alt="Oreo S'mores Cookies"></div>
+          <div class="product-content">
+            <h3>Oreo S'mores Cookies</h3>
+            <p>A fun cookie blend with Oreo goodness and s’mores-inspired sweetness in every bite.</p>
+            <div class="product-meta"><span class="price">₱145</span><a class="tag" href="form.html">Order</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="cookies">
+          <span class="badge">Rich & Gooey</span>
+          <div class="product-img-wrap"><img src="assets/mike chocolate chips nutella.jpg" alt="Chocolate Chip Nutella Cookies"></div>
+          <div class="product-content">
+            <h3>Chocolate Chip Nutella Cookies</h3>
+            <p>Chocolate chip cookies with a rich Nutella-style center made for extra indulgence.</p>
+            <div class="product-meta"><span class="price">₱150</span><a class="tag" href="form.html">Order</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="cookies">
+          <span class="badge">Premium</span>
+          <div class="product-img-wrap"><img src="assets/cb biscoff stuffed.jpg" alt="Biscoff Stuffed Cookies"></div>
+          <div class="product-content">
+            <h3>Biscoff Stuffed Cookies</h3>
+            <p>Premium stuffed cookies with warm Biscoff flavor and a bakery-style finish.</p>
+            <div class="product-meta"><span class="price">₱155</span><a class="tag" href="form.html">Order</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="cookies">
+          <span class="badge">Sweet Pick</span>
+          <div class="product-img-wrap"><img src="assets/Strawberrychips.jpg" alt="Strawberry Chips Cookies"></div>
+          <div class="product-content">
+            <h3>Strawberry Chips Cookies</h3>
+            <p>A sweet strawberry-inspired cookie for customers who love bright, fruity flavors.</p>
+            <div class="product-meta"><span class="price">₱135</span><a class="tag" href="form.html">Order</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="cookies">
+          <span class="badge">Crunchy</span>
+          <div class="product-img-wrap"><img src="assets/Bischips.jpg" alt="Biscoff Chips"></div>
+          <div class="product-content">
+            <h3>Biscoff Chips</h3>
+            <p>Crispy chip-style treats with the cozy caramel notes of Biscoff.</p>
+            <div class="product-meta"><span class="price">₱140</span><a class="tag" href="form.html">Order</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="pastries">
+          <span class="badge">Pastry</span>
+          <div class="product-img-wrap"><img src="assets/Bananaloaf.jpg" alt="Banana Loaf"></div>
+          <div class="product-content">
+            <h3>Banana Loaf</h3>
+            <p>Moist banana loaf that pairs perfectly with coffee, milk, or afternoon snacks.</p>
+            <div class="product-meta"><span class="price">₱180</span><a class="tag" href="form.html">Order</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="bundles">
+          <span class="badge">Snack</span>
+          <div class="product-img-wrap"><img src="assets/Cookiessnack.jpg" alt="Cookie Snack Pack"></div>
+          <div class="product-content">
+            <h3>Cookie Snack Pack</h3>
+            <p>Easy-to-share cookie snacks packed for school, work, events, and cravings.</p>
+            <div class="product-meta"><span class="price">₱110</span><a class="tag" href="form.html">Order</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="bundles">
+          <span class="badge">Bundle</span>
+          <div class="product-img-wrap"><img src="assets/Chipbundle.jpg" alt="Chip Bundle"></div>
+          <div class="product-content">
+            <h3>Chip Bundle</h3>
+            <p>A value bundle for cookie lovers who want more pieces for sharing.</p>
+            <div class="product-meta"><span class="price">₱399</span><a class="tag" href="form.html">Order</a></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="bundles">
+          <span class="badge">Gift Box</span>
+          <div class="product-img-wrap"><img src="assets/Perfectgift.jpg" alt="Perfect Gift Box"></div>
+          <div class="product-content">
+            <h3>Perfect Gift Box</h3>
+            <p>Gift-ready treats arranged for birthdays, holidays, and thoughtful surprises.</p>
+            <div class="product-meta"><span class="price">₱450</span><a class="tag" href="form.html">Order</a></div>
+          </div>
+        </article>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <a class="logo" href="Index.html"><span class="logo-mark">🍪</span><span>Delish Alley</span></a>
+      <p>Freshly baked cookies, snack boxes, loaf treats, and gift-ready bundles made for sweet cravings and thoughtful sharing.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <div class="footer-links">
+        <a href="menus.html">Cookie Menu</a>
+        <a href="Product.html">Best Sellers</a>
+        <a href="form.html">Order Form</a>
+      </div>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Message Delish Alley for bulk orders, custom bundles, and pickup or delivery arrangements.</p>
+      <p>Email: hello@delishalley.local<br>Phone: 09XX-XXX-XXXX</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Delish Alley. All rights reserved.</span>
+    <span>Made with warm cookies and clean design.</span>
+  </div>
+</footer>
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+
+</body>
+</html>

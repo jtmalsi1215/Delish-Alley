@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Place an order for Delish Alley cookies, pastries, and gift bundles.">
+  <title>Order | Delish Alley</title>
+  <link rel="stylesheet" href="CSS/delishAlley.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="logo" href="Index.html" aria-label="Delish Alley Home">
+      <span class="logo-mark">🍪</span><span>Delish Alley</span>
+    </a>
+    <div class="nav-links" data-nav-links>
+      <a href="Index.html" class="">Home</a>
+      <a href="menus.html" class="">Menu</a>
+      <a href="Product.html" class="">Products</a>
+      <a href="form.html" class="active">Order</a>
+      <a href="Loginform.html" class="">Login</a>
+    </div>
+    <div class="nav-actions">
+      <a class="btn btn-secondary" href="form.html">Order Now</a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>☰</button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <span class="eyebrow">Order form</span>
+    <h1>Reserve your Delish Alley treats.</h1>
+    <p>Complete your Delish Alley order by entering your details, choosing your preferred treats, and reviewing your total before final confirmation.</p>
+  </section>
+  <div class="form-layout">
+    <form class="form-panel" id="orderForm">
+      <h2 class="section-title">Order details</h2>
+      <p class="form-note">Fill out the details below. You can connect this form to email, database, or checkout later without changing the design.</p>
+      <div class="form-grid">
+        <div class="field"><label for="fullName">Full Name</label><input id="fullName" name="fullName" type="text" autocomplete="name" required placeholder="Enter your full name"></div>
+        <div class="field"><label for="phone">Contact Number</label><input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="09XX-XXX-XXXX"></div>
+        <div class="field full"><label for="email">Email Address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="your@email.com"></div>
+        <div class="field full"><label for="product">Product</label><select id="product" name="product" required><option value="Classic Chocolate Chip Cookies">Classic Chocolate Chip Cookies — ₱120</option>
+<option value="Oreo S'mores Cookies">Oreo S'mores Cookies — ₱145</option>
+<option value="Chocolate Chip Nutella Cookies">Chocolate Chip Nutella Cookies — ₱150</option>
+<option value="Biscoff Stuffed Cookies">Biscoff Stuffed Cookies — ₱155</option>
+<option value="Strawberry Chips Cookies">Strawberry Chips Cookies — ₱135</option>
+<option value="Biscoff Chips">Biscoff Chips — ₱140</option>
+<option value="Banana Loaf">Banana Loaf — ₱180</option>
+<option value="Cookie Snack Pack">Cookie Snack Pack — ₱110</option>
+<option value="Chip Bundle">Chip Bundle — ₱399</option>
+<option value="Perfect Gift Box">Perfect Gift Box — ₱450</option></select></div>
+        <div class="field"><label for="quantity">Quantity</label><input id="quantity" name="quantity" type="number" min="1" value="1" required></div>
+        <div class="field"><label for="fulfillment">Fulfillment</label><select id="fulfillment" name="fulfillment" required><option>Pickup</option><option>Delivery</option></select></div>
+        <div class="field full"><label for="address">Delivery / Pickup Notes</label><textarea id="address" name="address" placeholder="Address, preferred time, dedication, or special request"></textarea></div>
+      </div>
+      <div class="hero-actions"><button class="btn btn-primary" type="submit">Review Order</button><a class="btn btn-secondary" href="menus.html">Return to Menu</a></div>
+    </form>
+    <aside class="order-summary" aria-label="Order summary">
+      <h2>Live summary</h2>
+      <div class="summary-line"><span>Product</span><strong data-summary-product>Classic Chocolate Chip Cookies</strong></div>
+      <div class="summary-line"><span>Quantity</span><strong data-summary-qty>1</strong></div>
+      <div class="summary-line"><span>Fulfillment</span><strong data-summary-pickup>Pickup</strong></div>
+      <div class="summary-line"><span>Estimated Total</span><strong data-summary-total>₱120</strong></div>
+      <p class="notice">Your Delish Alley receipt shows your selected treats, order details, and estimated total for easy review before completing your purchase.
+</p>
+    </aside>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <a class="logo" href="Index.html"><span class="logo-mark">🍪</span><span>Delish Alley</span></a>
+      <p>Freshly baked cookies, snack boxes, loaf treats, and gift-ready bundles made for sweet cravings and thoughtful sharing.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <div class="footer-links">
+        <a href="menus.html">Cookie Menu</a>
+        <a href="Product.html">Best Sellers</a>
+        <a href="form.html">Order Form</a>
+      </div>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Message Delish Alley for bulk orders, custom bundles, and pickup or delivery arrangements.</p>
+      <p>Email: hello@delishalley.local<br>Phone: 09XX-XXX-XXXX</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Delish Alley. All rights reserved.</span>
+    <span>Made with warm cookies and clean design.</span>
+  </div>
+</footer>
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Delish Alley login page redesigned with a professional cookie shop layout.">
+  <title>Login | Delish Alley</title>
+  <link rel="stylesheet" href="CSS/delishAlley.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="logo" href="Index.html" aria-label="Delish Alley Home">
+      <span class="logo-mark">🍪</span><span>Delish Alley</span>
+    </a>
+    <div class="nav-links" data-nav-links>
+      <a href="Index.html" class="">Home</a>
+      <a href="menus.html" class="">Menu</a>
+      <a href="Product.html" class="">Products</a>
+      <a href="form.html" class="">Order</a>
+      <a href="Loginform.html" class="active">Login</a>
+    </div>
+    <div class="nav-actions">
+      <a class="btn btn-secondary" href="form.html">Order Now</a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>☰</button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="auth-wrap">
+    <div class="auth-art">
+      <span class="eyebrow">Welcome back</span>
+      <h1>Manage sweet orders with style.</h1>
+      <p>A polished login screen for Delish Alley customers or future administrators. The form is safe as a static preview and can be connected to backend authentication later.</p>
+    </div>
+    <form class="auth-card" id="loginForm">
+      <h2>Login</h2>
+      <p class="form-note">Access your Delish Alley account or preview the login design.</p>
+      <div class="form-grid">
+        <div class="field full"><label for="loginEmail">Email Address</label><input id="loginEmail" name="email" type="email" required placeholder="your@email.com"></div>
+        <div class="field full"><label for="loginPassword">Password</label><input id="loginPassword" name="password" type="password" required placeholder="Enter password"></div>
+      </div>
+      <button class="btn btn-primary" type="submit">Login</button>
+      <div class="helper-links"><a href="form.html">Order as guest</a><a href="Index.html">Back home</a></div>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <a class="logo" href="Index.html"><span class="logo-mark">🍪</span><span>Delish Alley</span></a>
+      <p>Freshly baked cookies, snack boxes, loaf treats, and gift-ready bundles made for sweet cravings and thoughtful sharing.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <div class="footer-links">
+        <a href="menus.html">Cookie Menu</a>
+        <a href="Product.html">Best Sellers</a>
+        <a href="form.html">Order Form</a>
+      </div>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Message Delish Alley for bulk orders, custom bundles, and pickup or delivery arrangements.</p>
+      <p>Email: hello@delishalley.local<br>Phone: 09XX-XXX-XXXX</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Delish Alley. All rights reserved.</span>
+    <span>Made with warm cookies and clean design.</span>
+  </div>
+</footer>
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+
+</body>
+</html>

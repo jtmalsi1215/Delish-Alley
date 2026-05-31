@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Review the latest Delish Alley order details before final confirmation.">
+  <title>Order Review | Delish Alley</title>
+  <link rel="stylesheet" href="CSS/delishAlley.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="logo" href="Index.html" aria-label="Delish Alley Home">
+      <span class="logo-mark">🍪</span><span>Delish Alley</span>
+    </a>
+    <div class="nav-links" data-nav-links>
+      <a href="Index.html" class="">Home</a>
+      <a href="menus.html" class="">Menu</a>
+      <a href="Product.html" class="">Products</a>
+      <a href="form.html" class="active">Order</a>
+      <a href="Loginform.html" class="">Login</a>
+    </div>
+    <div class="nav-actions">
+      <a class="btn btn-secondary" href="form.html">Order Now</a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>☰</button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <span class="eyebrow">Order review</span>
+    <h1>Your sweet order is almost ready.</h1>
+    <p>Review the latest order details saved from the order form. For a live website, this page can later be connected to email, payment, or database storage.</p>
+  </section>
+  <section>
+    <div class="grid timeline">
+      <article class="timeline-card"><div class="timeline-number">1</div><h3>Order received</h3><p class="section-copy">Your submitted order details are displayed below for easy checking.</p></article>
+      <article class="timeline-card"><div class="timeline-number">2</div><h3>Confirm details</h3><p class="section-copy">Message Delish Alley to confirm availability, pickup, delivery, or custom requests.</p></article>
+      <article class="timeline-card"><div class="timeline-number">3</div><h3>Enjoy cookies</h3><p class="section-copy">Prepare for freshly baked treats made for cravings and sharing.</p></article>
+    </div>
+  </section>
+  <section>
+    <div class="form-layout">
+      <div class="form-panel">
+        <h2 class="section-title">Latest order summary</h2>
+        <div data-order-review>
+          <p class="form-note">No order has been submitted yet. Please use the order form first.</p>
+        </div>
+        <div class="hero-actions"><a class="btn btn-primary" href="form.html">Edit / Create Order</a><a class="btn btn-secondary" href="menus.html">Browse Menu</a></div>
+      </div>
+      <aside class="order-summary">
+        <h2>Need help?</h2>
+        <p class="section-copy">Use this review page as a customer-friendly confirmation screen. It avoids blank pages and broken redirects by showing a clear next step.</p>
+        <p class="notice">Static preview only: connect to your preferred backend or messaging channel when ready.</p>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <a class="logo" href="Index.html"><span class="logo-mark">🍪</span><span>Delish Alley</span></a>
+      <p>Freshly baked cookies, snack boxes, loaf treats, and gift-ready bundles made for sweet cravings and thoughtful sharing.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <div class="footer-links">
+        <a href="menus.html">Cookie Menu</a>
+        <a href="Product.html">Best Sellers</a>
+        <a href="form.html">Order Form</a>
+      </div>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Message Delish Alley for bulk orders, custom bundles, and pickup or delivery arrangements.</p>
+      <p>Email: hello@delishalley.local<br>Phone: 09XX-XXX-XXXX</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Delish Alley. All rights reserved.</span>
+    <span>Made with warm cookies and clean design.</span>
+  </div>
+</footer>
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+
+</body>
+</html>
