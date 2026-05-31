@@ -1,6 +1,6 @@
 # DELISH ALLEY - A Responsive Cookie Shop Ordering Website
 
-![project-banner](assets/Perfectgift.jpg)
+![project-banner](assets/Del1.png)
 
 ## 📖 About
 
